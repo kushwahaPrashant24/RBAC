@@ -22,7 +22,7 @@ export default function Sidebar({ activeTab, onTabChange }: SidebarProps) {
       <div className="md:hidden flex items-center justify-between bg-gray-900 p-4">
         <div className="flex items-center space-x-2">
           <Shield className="w-6 h-6 text-indigo-500" />
-          <span className="text-white text-lg font-bold">RBAC Admin</span>
+          <span className="text-white text-lg font-bold">VRV Security</span>
         </div>
         <button
           onClick={() => setSidebarOpen(!isSidebarOpen)}
@@ -40,7 +40,7 @@ export default function Sidebar({ activeTab, onTabChange }: SidebarProps) {
       >
         <div className="flex items-center space-x-2 mb-8 px-4">
           <Shield className="w-8 h-8 text-indigo-500" />
-          <span className="text-white text-xl font-bold">RBAC Admin</span>
+          <span className="text-white text-xl font-bold">VRB Security</span>
         </div>
         <nav>
           {menuItems.map((item) => (
